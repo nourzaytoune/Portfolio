@@ -188,7 +188,7 @@ export default function Contact() {
                   onChange={handleChange}
                   rows={5}
                   placeholder="Reach out..."
-                  className="w-full px-5 py-3.5 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-gold-500 focus:border-gold-500 transition-all duration-300 resize-none bg-gray-50 focus:bg-white"
+                  className="w-full px-5 py-3.5 border-2 border-gray-200 dark:border-gray-600 rounded-xl focus:ring-2 focus:ring-gold-500 focus:border-gold-500 transition-all duration-300 bg-gray-50 dark:bg-gray-700 focus:bg-white dark:focus:bg-gray-600 text-gray-900 dark:text-white"
                   required
                 ></textarea>
               </div>
